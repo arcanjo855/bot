@@ -43,4 +43,7 @@ client.on('message', (message)=>{
     else if (command === 'dm'){        
         client.commands.get('DM').execute(message, args);
     }
+    else if (command === 'play'){        
+        client.commands.get('music').execute(message, args);
+    }
 });
