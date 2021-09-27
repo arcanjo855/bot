@@ -40,9 +40,6 @@ client.on('message', (message)=>{
     else if (command === 'ban'){        
         client.commands.get('ban').execute(message, args);
     }
-    else if (command === 'dm'){        
-        client.commands.get('DM').execute(message, args);
-    }
     else if (command === 'play'){        
         client.commands.get('music').execute(message, args);
     }
